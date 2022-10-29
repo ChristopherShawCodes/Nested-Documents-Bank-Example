@@ -15,11 +15,11 @@ simple example of a User schema that has their bank accounts nested
     
     bankAccounts: [BankAccountSchema]
     
-  },
+    },
 
-  {timestamps: true}
+    {timestamps: true}
 
-  )`
+    )`
 
 --------------------------------------------------------------
 
@@ -37,9 +37,9 @@ Nesting bank account transactions within the bank account schema
     
     {timestamps: {createdAt: true}}
     
-)
+  )`
 
-const BankAccountSchema = new mongoose.Schema(
+  `const BankAccountSchema = new mongoose.Schema(
 
     {
     
@@ -53,4 +53,4 @@ const BankAccountSchema = new mongoose.Schema(
     
     {timestamps: true}
     
-)`
+  )`
