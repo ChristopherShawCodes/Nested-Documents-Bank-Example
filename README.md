@@ -25,7 +25,7 @@ simple example of a User schema that has their bank accounts nested
 
 Nesting bank account transactions within the bank account schema
 
-  `const TransactionSchema = new mongoose.Schema(
+    `const TransactionSchema = new mongoose.Schema(
   
     {
     
