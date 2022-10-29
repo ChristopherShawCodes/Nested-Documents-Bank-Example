@@ -3,7 +3,7 @@
 
 simple example of a User schema that has their bank accounts nested
 
-  `const userSchema = new mongoose.Schema({
+   `const userSchema = new mongoose.Schema({
   
     fName: String,
     
@@ -53,4 +53,4 @@ Nesting bank account transactions within the bank account schema
     
     {timestamps: true}
     
-   )`
+     )`
