@@ -37,9 +37,9 @@ Nesting bank account transactions within the bank account schema
     
     {timestamps: {createdAt: true}}
     
-  )`
+    )`
 
-  `const BankAccountSchema = new mongoose.Schema(
+    `const BankAccountSchema = new mongoose.Schema(
 
     {
     
@@ -53,4 +53,4 @@ Nesting bank account transactions within the bank account schema
     
     {timestamps: true}
     
-  )`
+   )`
